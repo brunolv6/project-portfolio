@@ -1,0 +1,93 @@
+.job-search{
+    display: flex;
+    flex-direction: column;
+    
+    .apresentacao-job-search{
+        display: flex;
+        flex-direction:  row-reverse;
+        padding: 2vw 5vw;
+        justify-content: space-around;
+        /*  background-color: black; */
+    
+        .descricao{
+            width: 40%;
+        }
+
+        .imagem{
+            width: 50%;
+            height: auto;
+        }
+    }
+
+    .ferramentas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        .logo{
+            margin: 0 1vw;
+            width: 80px;
+            height: auto;
+        }
+    }
+
+    a{
+        align-self: center;
+        width: 30%;
+
+        .botao{
+            color: white;
+            width: 100%;
+            margin: 2vw;
+            font-size: 18px;
+            font-weight: bold;
+            border: black solid 2px;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.952);
+            cursor: pointer;
+            outline: none;
+
+            &:hover{
+                color: black;
+                background-color: white;
+            }
+        }
+    }
+
+    @media screen and (max-width: 800px){
+        .apresentacao-job-search{
+            flex-direction: column-reverse;
+            align-items: center;
+            padding: 3vw 3vw;
+
+            .descricao{
+                width: 80%;
+            }
+
+            .imagem{
+                width: 80%;
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .apresentacao-job-search{
+            padding: 2vw 3vw;
+        }
+
+        .ferramentas{
+
+            .logo{
+                width: 40px;
+            }
+        }
+
+        a{
+
+            .botao{
+                font-size: 12px;                
+            }
+        }
+    }
+}

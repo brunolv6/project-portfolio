@@ -1,0 +1,21 @@
+.descricao{
+
+    .nome{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    .texto{
+        font-size: 16px;
+    }
+
+    @media screen and (max-width: 500px) {
+        .nome{
+            font-size: 12px;
+        }
+
+        .texto{
+            font-size: 8px;
+        }
+    }
+}

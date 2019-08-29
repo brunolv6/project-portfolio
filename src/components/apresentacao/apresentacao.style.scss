@@ -1,0 +1,47 @@
+$fontTitle: 22px;
+$fontSubtitle: 16px;
+$fontText: 12px;
+
+.apresentacao{
+    margin: 3vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .circulo-foto{
+        border: 2px solid black;
+        border-radius: 50%;
+        width: 33vw;
+        max-width: 200px;
+        height: 33vw;
+        max-height: 200px;
+        position: relative;
+        overflow: hidden;
+    
+        .foto-pessoal{
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .nome{
+        font-size: $fontTitle;
+        font-weight: bold;
+    }
+
+    .profissao{
+        font-size: $fontSubtitle;
+    }
+
+    @media screen and (max-width: 500px){
+        .nome{
+            font-size: 16px
+        }
+        .profissao{
+            font-size: 12px;
+        }
+    }
+}
+

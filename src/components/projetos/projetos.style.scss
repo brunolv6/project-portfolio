@@ -1,0 +1,19 @@
+$cor1: white;
+$cor2: black;
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+
+    .gradiente1{
+        border-style: solid;
+        border-width: 0 97vw 5vw 0;
+        border-color: $cor2 $cor1;   
+    }
+
+    .gradiente2{
+        border-style: solid;
+        border-width: 5vw 97vw 0 0;
+        border-color: $cor2 $cor1;    
+    }
+}

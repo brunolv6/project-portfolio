@@ -1,0 +1,21 @@
+.links{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+
+    .links-item{
+        width: 30px;
+        height: auto;
+        margin: 0 3px;
+    }
+
+    .filtro-branco{
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(65deg) brightness(100%) contrast(103%);
+    }
+
+    @media screen and (max-width: 500px) {
+        .links-item{
+            width: 20px;
+        }
+    }
+}

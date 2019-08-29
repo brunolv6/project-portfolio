@@ -1,0 +1,34 @@
+.footer{
+    width: 100%;
+    padding: 15px 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .pergunta{
+        color: white;
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    .contato{
+        color: white;
+        border: 2px solid white;
+        border-radius: 20px;
+        padding: 5px 10px;
+        margin: 5px 0;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    @media screen and (max-width: 500px) {
+        .pergunta{
+            font-size: 10px;
+        }
+
+        .contato{
+            font-size: 16px;
+        }
+    }
+}

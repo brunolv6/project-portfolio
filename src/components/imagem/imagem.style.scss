@@ -1,0 +1,128 @@
+/* $cor1: rgb(211, 209, 209);
+$cor2: rgb(45, 85, 55); rgb(55, 84, 110); */
+
+$cor1: rgb(253, 252, 252);
+$cor2: rgb(167, 168, 168);
+$cor3: rgb(0, 0, 0);
+
+.apresentacao{
+    background-color: $cor1;
+    padding: 5vw 0 2vw 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    .circle{
+        border: black 2px solid;
+        border-radius: 50%;
+/*         width: 30vw; */
+        width: 180px;
+/*         height: 30vw; */
+        height: 180px;
+        margin: 5px 0;
+        position: relative;
+        //esconder e conter na borda
+        overflow: hidden;
+      
+        .imagem{
+          width: 100%;
+          height: 100%;
+          background-position: center;
+          background-size: cover;
+        }
+    }
+
+    .name{
+      font-size: 22px;
+      margin-top: 9px;
+    }
+
+    .profissao{
+      font-size: 18px;
+      margin-bottom: 9px;
+    }
+
+    .formas-contato{
+        display: flex;
+        flex-direction: row;
+
+        .logo-info{
+          margin: 0 5px;
+
+          .logos{
+            width: 32px;
+            height: 32px;
+          }
+        }
+    }
+}
+
+.gradient {
+/*   width: 0;
+  height: 0; */
+  //de que HAVERÁ uma borda
+  border-style: solid;
+  //border-width: o quão inclinado, até onde vai
+  border-width: 4vw 97vw 0 0;
+  border-color:  $cor1 $cor2;
+}
+
+.teste{
+  width: 100%;
+/*   height: 400px; */
+  background-color:  $cor2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  .ecommerce{
+/*     background-color: red; */
+    width: 50vw;
+    height: auto;
+    padding: 30px 50px 0px 10px;
+  }
+}
+
+.gradient2 {
+  border: solid;
+  //1.fazer divisão em quao profundidade
+  //2.afunda esquerda (e também o quanto atravessará)
+  //3.não usar (inverterá cores)
+  //4. afunda direito
+  border-width: 4vw 0 0 97vw;
+  //se (1) ativo, vai em ordem de mais em cima para mais embaixo
+  border-color: $cor2 $cor1;
+}  
+  .teste2{
+    width: 100%;
+  /*   height: 400px; */
+    background-color:  $cor1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  
+    .jobsearch{
+/*       background-color: red; */
+      width: 50vw;
+      height: auto;
+      padding: 0px 0px 0px 0px;
+    }
+  }
+  .gradient3 {
+    /*   width: 0;
+      height: 0; */
+      //de que HAVERÁ uma borda
+      border-style: solid;
+      //border-width: o quão inclinado, até onde vai
+      border-width: 1vw 97vw 0 0;
+      border-color:  $cor1 $cor1;
+    }
+
+    .footer{
+      background-color: $cor3;
+      height: 20vw;
+      width: 100%;
+    }
