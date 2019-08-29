@@ -24,14 +24,11 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        height: 82px;
-        background-color: red;
         
         .logo{
             margin: 0 1vw;
             width: 80px;
             height: auto;
-            background-color: blue;
         }
     }
 
@@ -81,7 +78,8 @@
         }
 
         .ferramentas{
-
+            height: 42px;
+            
             .logo{
                 width: 40px;
             }
