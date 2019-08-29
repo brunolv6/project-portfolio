@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64ef8d08a407f170c8076c3c6630f758",
+    "revision": "e55969dfde027ea994c4a72c40bb9fc2",
     "url": "/project-portfolio/index.html"
   },
   {
-    "revision": "942076e45cb77deb3685",
+    "revision": "7d70c2f3658931e1d35f",
     "url": "/project-portfolio/static/css/main.12bdcdf1.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/project-portfolio/static/js/2.90ef0de0.chunk.js"
   },
   {
-    "revision": "942076e45cb77deb3685",
-    "url": "/project-portfolio/static/js/main.0e6d9433.chunk.js"
+    "revision": "7d70c2f3658931e1d35f",
+    "url": "/project-portfolio/static/js/main.c248a077.chunk.js"
   },
   {
     "revision": "c4589b152830cfa53b4a",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/project-portfolio/static/media/ecommerce.9154065b.png"
   },
   {
-    "revision": "d023ec38e17f80abc4b99a5c8a198bd0",
-    "url": "/project-portfolio/static/media/firebase.d023ec38.png"
+    "revision": "e616378026b8da8ae74ee6b741eac9f4",
+    "url": "/project-portfolio/static/media/firebase.e6163780.svg"
   },
   {
     "revision": "ce551d75784970b1ad3535e2b25e5179",
@@ -48,12 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/project-portfolio/static/media/linkedin.5b238434.svg"
   },
   {
-    "revision": "3ac9dd2d9a7fc89d477953157feb269a",
-    "url": "/project-portfolio/static/media/react.3ac9dd2d.png"
+    "revision": "bcb694ab35d2b4b8bf809629bab2691b",
+    "url": "/project-portfolio/static/media/node.bcb694ab.svg"
   },
   {
-    "revision": "d073667ec46c3f98b2145ee39209dd56",
-    "url": "/project-portfolio/static/media/redux.d073667e.png"
+    "revision": "921ae835c94350718df70fb8d15642c3",
+    "url": "/project-portfolio/static/media/react.921ae835.svg"
+  },
+  {
+    "revision": "33d439525c9e2e7696af50d7dfafb30f",
+    "url": "/project-portfolio/static/media/redux.33d43952.svg"
   },
   {
     "revision": "e4590c1a8965385e21eac0f0bff9c585",

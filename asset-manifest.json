@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/project-portfolio/static/css/main.12bdcdf1.chunk.css",
-    "main.js": "/project-portfolio/static/js/main.0e6d9433.chunk.js",
-    "main.js.map": "/project-portfolio/static/js/main.0e6d9433.chunk.js.map",
+    "main.js": "/project-portfolio/static/js/main.c248a077.chunk.js",
+    "main.js.map": "/project-portfolio/static/js/main.c248a077.chunk.js.map",
     "runtime~main.js": "/project-portfolio/static/js/runtime~main.515880ca.js",
     "runtime~main.js.map": "/project-portfolio/static/js/runtime~main.515880ca.js.map",
     "static/js/2.90ef0de0.chunk.js": "/project-portfolio/static/js/2.90ef0de0.chunk.js",
     "static/js/2.90ef0de0.chunk.js.map": "/project-portfolio/static/js/2.90ef0de0.chunk.js.map",
     "index.html": "/project-portfolio/index.html",
-    "precache-manifest.813dd50f479b227473128b7fb6ab0be0.js": "/project-portfolio/precache-manifest.813dd50f479b227473128b7fb6ab0be0.js",
+    "precache-manifest.9d3cb22643bbbb0469f274fae392bb0f.js": "/project-portfolio/precache-manifest.9d3cb22643bbbb0469f274fae392bb0f.js",
     "service-worker.js": "/project-portfolio/service-worker.js",
     "static/css/main.12bdcdf1.chunk.css.map": "/project-portfolio/static/css/main.12bdcdf1.chunk.css.map",
     "static/media/ecommerce.png": "/project-portfolio/static/media/ecommerce.9154065b.png",
-    "static/media/firebase.png": "/project-portfolio/static/media/firebase.d023ec38.png",
+    "static/media/firebase.svg": "/project-portfolio/static/media/firebase.e6163780.svg",
     "static/media/fotoPessoal.jpg": "/project-portfolio/static/media/fotoPessoal.ce551d75.jpg",
     "static/media/github.svg": "/project-portfolio/static/media/github.1bb02710.svg",
     "static/media/heroku.svg": "/project-portfolio/static/media/heroku.81c49462.svg",
     "static/media/job.png": "/project-portfolio/static/media/job.f42ca7fb.png",
     "static/media/linkedin.svg": "/project-portfolio/static/media/linkedin.5b238434.svg",
-    "static/media/react.png": "/project-portfolio/static/media/react.3ac9dd2d.png",
-    "static/media/redux.png": "/project-portfolio/static/media/redux.d073667e.png",
+    "static/media/node.svg": "/project-portfolio/static/media/node.bcb694ab.svg",
+    "static/media/react.svg": "/project-portfolio/static/media/react.921ae835.svg",
+    "static/media/redux.svg": "/project-portfolio/static/media/redux.33d43952.svg",
     "static/media/stripe.svg": "/project-portfolio/static/media/stripe.e4590c1a.svg"
   }
 }
