@@ -54,6 +54,6 @@ export const JobSearch = () => (
                 ))
             }
         </div>
-        <a href='https://bruno-ecommerce-live.herokuapp.com/' rel="noopener noreferrer" target="_blank"><button className='botao'>Entre</button></a>
+        <a href='https://brunolv6.github.io/project-job-search/' rel="noopener noreferrer" target="_blank"><button className='botao'>Entre</button></a>
     </div>
 )
